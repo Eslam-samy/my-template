@@ -1,3 +1,9 @@
+import '../repository/{{name}}_repository.dart';
+import '../entities/{{name}}_entity.dart';
+
+
+
+
 class {{name.pascalCase()}}UseCase
     implements UseCase<DataState<{{name.pascalCase()}}Entity>, int> {
   final {{name.pascalCase()}}Repository _{{name}}Repository;

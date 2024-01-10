@@ -1,6 +1,12 @@
+
+import '../../demain/repository/{{name}}_repository.dart';
+import '../../demain/entities/{{name}}_entity.dart';
+
+
+
 class {{name.pascalCase()}}RepositoryImpl extends {{name.pascalCase()}}Repository {
 
-  SingleProductRepositoryImpl();
+  {{name.pascalCase()}}RepositoryImpl();
 
   @override
   Future<DataState<{{name.pascalCase()}}Entity>> get{{name.pascalCase()}}Response(
