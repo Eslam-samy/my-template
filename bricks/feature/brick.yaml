@@ -31,3 +31,8 @@ vars:
     description: enter the name of the feature .[lower case only]
     default: feature
     prompt: What is the feature name [lower case only]?
+  package:
+    type: string
+    description: enter the package name of the project 
+    default: com.example
+    prompt: What is the package name ?
