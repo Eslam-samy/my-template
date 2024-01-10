@@ -1,8 +1,8 @@
 class {{name.pascalCase()}}UseCase
-    implements UseCase<DataState<SingleProductResponseEntity>, int> {
+    implements UseCase<DataState<{{name.pascalCase()}}Entity>, int> {
   final {{name.pascalCase()}}Repository _{{name}}Repository;
 
-  {{name.pascalCase()}}UseCase(this._singleProductRepository);
+  {{name.pascalCase()}}UseCase(this._{{name}}Repository);
 
   @override
   Future<DataState<{{name.pascalCase()}}Entity>> call({int? params}) async {
