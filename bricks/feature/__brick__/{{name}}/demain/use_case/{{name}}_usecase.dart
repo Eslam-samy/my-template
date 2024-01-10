@@ -6,7 +6,6 @@ class {{name.pascalCase()}}UseCase
 
   @override
   Future<DataState<{{name.pascalCase()}}Entity>> call({int? params}) async {
-    final token = prefs.getString(AuthToken);
 
     return _{{name}}Repository.get{{name.pascalCase()}}Response();
   }
