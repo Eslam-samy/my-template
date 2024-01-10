@@ -1,7 +1,7 @@
 
 import '../../demain/repository/{{name}}_repository.dart';
 import '../../demain/entities/{{name}}_entity.dart';
-import '../../../../core/resources/data_state.dart';
+import '../../../lib/core/resources/data_state.dart';
 
 
 

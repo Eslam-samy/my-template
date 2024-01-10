@@ -1,5 +1,4 @@
 part of '{{name}}_bloc.dart';
-import '../../demain/entities/{{name}}_entity.dart';
 
 
 sealed class {{name.pascalCase()}}State extends Equatable {
