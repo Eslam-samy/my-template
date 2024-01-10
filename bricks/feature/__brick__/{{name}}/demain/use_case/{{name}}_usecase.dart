@@ -1,6 +1,8 @@
 import '../repository/{{name}}_repository.dart';
 import '../entities/{{name}}_entity.dart';
-
+import '../../../../core/resources/data_state.dart';
+import '../../../../core/usecases/usecase.dart';
+  
 
 
 
